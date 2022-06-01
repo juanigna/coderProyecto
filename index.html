@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+            rel="stylesheet"
+        />
+         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="src/css/style.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>    
+        <title>MUEBLE CITY</title>
+    </head>
+    <body class="index">
+        <header class="header">
+            <nav class="header__nav">
+                <a href="#0">
+                    <h3 class="header__logo">Mueble city</h3>
+                </a>
+               
+                <label class="menu-label" for="btn-menu">
+                    <img src="./src/assets/bx-menu.svg">
+                </label>
+                 <input type="checkbox" id="btn-menu" class="btn-menu-checked">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#">Inicio</a></a></li>
+                    <li class="header__item">
+                        <a href="src/vistas/sillones.html">Sillones</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="src/vistas/sillas.html">Sillas</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="src/vistas/contacto.html">Contacto</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="src/vistas/nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <br />
+        </header>
+        <main class="main">
+            <section class="main__section">
+                <h1 class="main__title text-focus-in">Mueble City</h1>
+                <h2 class="main__subtitle">Tu lugar de Muebles</h2>
+                <img
+                    class="main__img"
+                    src="src/assets/logo.webp"
+                    alt="Logo de la pagina"
+                />
+            </section>
+            <div class="wave">
+                <img src="src/assets/wave.svg" alt="">
+            </div>
+            <section class="main__equipo" >
+                <div class="equipo__title ">NUESTRO GRAN EQUIPO!!!</div>
+                <div class="card__container" data-aos="fade-up">
+                    <div class="card">
+                        <div class="equipo__img">
+                            <img src="src/assets/equipo1.jpg" alt="">
+                        </div>
+                        <div class="equipo__nombre">Laura</div>
+                    </div>
+                    <div class="card">
+                        <div class="equipo__img">
+                             <img src="src/assets/equipo2.jpg" alt="">
+                        </div>
+                        <div class="equipo__nombre">Mariela</div>
+                    </div>
+                    <div class="card">
+                        <div class="equipo__img">
+                             <img src="src/assets/equipo3.jpg" alt="">
+                        </div>
+                        <div class="equipo__nombre">Paula</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="contact__container">
+                <a href="./src/vistas/contacto.html">
+                <h4 class="footer__contact">CONTACT</h4>
+                </a>
+                <img src="src/assets/bx-envelope.svg" class="mail__logo"alt="">
+               
+            </div>
+            
+            <h4 class="footer__madeBy">Made By Juan</h4>
+        </footer>
+
+
+
+       
+  <script>
+    AOS.init();
+  </script>
+    </body>
+</html>

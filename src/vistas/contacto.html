@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>MUEBLE CITY</title>
+    </head>
+    <body class="contacto">
+        <header class="header">
+            <nav class="header__nav">
+                <a href="../../index.html">
+                    <h3 class="header__logo">Mueble city</h3>
+                </a>
+                <label class="menu-label" for="btn-menu">
+                    <img src="../assets/bx-menu.svg">
+                </label>
+                 <input type="checkbox" id="btn-menu" class="btn-menu-checked">
+                <ul class="header__list">
+                    <li class="header__item"><a href="../../index.html">Inicio</a></a></li>
+                    <li class="header__item"><a href="sillones.html">Sillones</a></li>
+                    <li class="header__item"><a href="sillas.html">Sillas</a></li>
+                    <li class="header__item"><a href="#0">Contacto</a></li>
+                    <li class="header__item"><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <h1 class="main__title tracking-in-expand">Contacto</h1>
+            <h2 class="main__subtitle">Completa el formulario</h2>
+            <form action="" method="get" enctype="text/plain" class="main__form">
+                <fieldset>
+                    <legend>Rellana con tus datos!</legend>
+                    <div>
+                        <label for="userName">Nombre</label>
+                        <input type="text" id="userName" name="userName" placeholder="Nombre" required>
+                    </div>
+                    <div>
+                        <label for="userMail">Mail</label>
+                        <input type="mail" id="userMail" name="userMail" placeholder="Email" required>
+                    </div>
+                    
+                    <div>
+                        <label for="userEdad">Edad</label>
+                        <input type="number" id="userEdad" name="userEdad" placeholder="Edad" required>
+                    </div>
+                    <div>
+                        <label for="userTel">Numero de Telefono</label>
+                        <input type="tel" id="userTel" name="userTel" placeholder="Telefono" required>
+                    </div>
+                    <div>
+                        <label for="userObs">Observaciones</label>
+                        <textarea name="userObs" id="userObs" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="main__buttons">
+                        <input class="main__submit" type="submit" value="ENVIAR">
+                        <input class="main__reset" type="reset" value="RESET">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+         <footer class="footer">
+              <div class="contact__container">
+                <a href="#0">
+                <h4 class="footer__contact">CONTACT</h4>
+                </a>
+                <img src="../assets/bx-envelope.svg" class="mail__logo"alt="">
+               
+            </div>
+            
+            <h4 class="footer__madeBy">Made By Juan</h4>
+        </footer>
+    </body>
+</html>
