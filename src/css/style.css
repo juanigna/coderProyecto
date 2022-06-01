@@ -484,6 +484,9 @@ textarea {
     .main__img {
         width: 70vw;
     }
+    .main__title {
+        margin-top: 0.5em;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -522,5 +525,8 @@ textarea {
     }
     .main__buttons input {
         margin: 0.5em 0;
+    }
+    .container__wrapper {
+        display: none;
     }
 }
