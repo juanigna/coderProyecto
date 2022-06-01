@@ -121,7 +121,7 @@ a {
 .main__title {
     text-align: center;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: clamp(2rem, 5vw, 5rem);
     font-weight: 400;
 }
 
@@ -483,10 +483,6 @@ textarea {
 
     .main__img {
         width: 70vw;
-    }
-    .main__title {
-        font-size: 2rem;
-        margin-top: 2em;
     }
 }
 
