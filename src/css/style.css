@@ -426,9 +426,11 @@ textarea {
 
 .footer__contact {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 2vw, 2rem);
     cursor: pointer;
+    margin: 0;
 }
+
 .contact__container {
     display: flex;
     gap: 0.5em;
@@ -440,7 +442,8 @@ textarea {
 
 .footer__madeBy {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 2vw, 2rem);
+    margin: 0;
 }
 @media screen and (max-width: 992px) {
     .header__item::after {
@@ -505,12 +508,6 @@ textarea {
     }
     .header__logo {
         font-size: 1.3rem;
-    }
-    .footer__madeBy {
-        font-size: 1.2rem;
-    }
-    .footer__contact {
-        font-size: 1.2rem;
     }
     .mail__logo {
         width: 24px;
