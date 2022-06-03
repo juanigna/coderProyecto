@@ -70,7 +70,9 @@ a {
     top: 8px;
     background-color: #ffd700;
 }
-
+.header__list {
+    margin: 0;
+}
 .header__logo:hover:after {
     height: 55%;
     transition: all 0.5s ease;
