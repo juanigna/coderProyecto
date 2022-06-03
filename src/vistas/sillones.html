@@ -4,9 +4,14 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
 
-         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
@@ -17,74 +22,146 @@
     </head>
     <body class="sillones">
         <header class="header">
-            
-            <nav class="header__nav">
-                <a href="../../index.html">
-                    <h3 class="header__logo">Mueble city</h3>
-                </a>
-                <label class="menu-label" for="btn-menu">
-                    <img src="../assets/bx-menu.svg">
-                </label>
-                 <input type="checkbox" id="btn-menu" class="btn-menu-checked">
-                <ul class="header__list">
-                    <li class="header__item"><a href="../../index.html">Inicio</a></a></li>
-                    <li class="header__item"><a href="#0">Sillones</a></li>
-                    <li class="header__item"><a href="sillas.html">Sillas</a></li>
-                    <li class="header__item"><a href="contacto.html">Contacto</a></li>
-                    <li class="header__item"><a href="nosotros.html">Nosotros</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand header__logo" href="#"
+                        >MUEBLE CITY</a
+                    >
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse justify-content-end"
+                        id="navbarNav"
+                    >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active header__item"
+                                    aria-current="page"
+                                    href="../../index.html"
+                                    >Inicio</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link header__item" href="#"
+                                    >Sillones</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header__item"
+                                    href="sillas.html"
+                                    >Sillas</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header__item"
+                                    href="contacto.html"
+                                    >Contacto</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link header__item"
+                                    href="nosotros.html"
+                                    >Nosotros</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
-       
+
         <main class="main">
             <div class="container__wrapper">
-                 <div class="container__ribbon">
-                    SILLONES
-                </div>
+                <div class="container__ribbon">SILLONES</div>
             </div>
-            <h1 class="main__title tracking-in-contract-bck-bottom">Sillones</h1>
+            <h1 class="main__title tracking-in-contract-bck-bottom">
+                Sillones
+            </h1>
             <h2 class="main__subtitle">Sillones de alto comfort</h2>
             <div class="main__container">
                 <div class="products__card">
-                    <img class="main__img" src="../assets/sillon1.jpg" alt="Sillon en L color gris">
+                    <img
+                        class="main__img"
+                        src="../assets/sillon1.jpg"
+                        alt="Sillon en L color gris"
+                    />
                     <p class="card__description">Sillon en L</p>
                 </div>
                 <div class="products__card">
-                    <img class="main__img" src="../assets/sillon2.jpg" alt="Sillon individual color rojo">
+                    <img
+                        class="main__img"
+                        src="../assets/sillon2.jpg"
+                        alt="Sillon individual color rojo"
+                    />
                     <p class="card__description">Sillon Individual + Doble</p>
                 </div>
                 <div class="products__card">
-                    <img class="main__img" src="../assets/sillon3.jpg" alt="Sillon color beige">
+                    <img
+                        class="main__img"
+                        src="../assets/sillon3.jpg"
+                        alt="Sillon color beige"
+                    />
                     <p class="card__description">Sillon Beige tradicional</p>
                 </div>
                 <div class="products__card">
-                    <img class="main__img" src="../assets/sillon4.jpg" alt="Sillon color beige">
+                    <img
+                        class="main__img"
+                        src="../assets/sillon4.jpg"
+                        alt="Sillon color beige"
+                    />
                     <p class="card__description">Sillon</p>
                 </div>
                 <div class="products__card">
-                    <img class="main__img" src="../assets/sillon5.jpg" alt="Sillon color beige">
+                    <img
+                        class="main__img"
+                        src="../assets/sillon5.jpg"
+                        alt="Sillon color beige"
+                    />
                     <p class="card__description">Sillon</p>
                 </div>
                 <div class="products__card">
-                    <img class="main__img" src="../assets/sillon6.jpg" alt="Sillon color beige">
+                    <img
+                        class="main__img"
+                        src="../assets/sillon6.jpg"
+                        alt="Sillon color beige"
+                    />
                     <p class="card__description">Sillon</p>
                 </div>
             </div>
         </main>
 
         <footer class="footer">
-             <div class="contact__container">
+            <div class="contact__container">
                 <a href="contacto.html">
-                <h4 class="footer__contact">CONTACT</h4>
+                    <h4 class="footer__contact">CONTACT</h4>
                 </a>
-                <img src="../assets/bx-envelope.svg" class="mail__logo"alt="">
-               
+                <img
+                    src="../assets/bx-envelope.svg"
+                    class="mail__logo"
+                    alt=""
+                />
             </div>
-            
+
             <h4 class="footer__madeBy">Made By Juan</h4>
         </footer>
 
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>     
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
     </body>
 </html>

@@ -73,9 +73,15 @@ a {
 .header__list {
     margin: 0;
 }
+.header__logo:hover {
+    color: #ffd700;
+}
 .header__logo:hover:after {
-    height: 55%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50%;
     transition: all 0.5s ease;
+    color: #ffd700;
 }
 
 .header__item {
@@ -84,7 +90,6 @@ a {
 }
 
 .header__item a {
-    color: #fff;
     position: relative;
 }
 
@@ -104,7 +109,7 @@ a {
 }
 
 .header__item a:hover::after {
-    width: 100%;
+    width: 100% !important;
     transition: all 1s ease;
 }
 
@@ -276,12 +281,13 @@ textarea {
 /* SILLONES Y SILLAS PRODUCTS SECTION */
 
 .container__wrapper {
-    left: -2px;
+    left: -3px;
     position: absolute;
-    top: 0px;
+    top: 10px;
     height: 145px;
     width: 100px;
     overflow: hidden;
+    z-index: -1;
 }
 .container__ribbon {
     left: -67px;
