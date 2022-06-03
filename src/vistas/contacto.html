@@ -82,78 +82,98 @@
             </nav>
         </header>
         <main class="main">
-            <h1 class="main__title tracking-in-contract-bck-bottom">
-                Contacto
-            </h1>
-            <h2 class="main__subtitle">Completa el formulario</h2>
-            <form
-                action=""
-                method="get"
-                enctype="text/plain"
-                class="main__form"
-            >
-                <fieldset>
-                    <legend>Rellana con tus datos!</legend>
-                    <div>
-                        <label for="userName">Nombre</label>
+            <div class="container">
+                <h1 class="main__title tracking-in-contract-bck-bottom">
+                    Contacto
+                </h1>
+                <h2 class="main__subtitle">Completa el formulario</h2>
+
+                <form action="" method="get" enctype="text/plain" class="row">
+                    <div class="col-md-6">
+                        <label for="exampleInputName" class="form-label"
+                            >Nombre</label
+                        >
                         <input
                             type="text"
-                            id="userName"
-                            name="userName"
+                            class="form-control"
+                            id="exampleInputName"
+                            aria-describedby="emailHelp"
                             placeholder="Nombre"
-                            required
                         />
                     </div>
-                    <div>
-                        <label for="userMail">Mail</label>
+                    <div class="col-md-6">
+                        <label for="exampleInputEmail1" class="form-label"
+                            >Email address</label
+                        >
                         <input
-                            type="mail"
-                            id="userMail"
-                            name="userMail"
+                            type="email"
+                            class="form-control"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
                             placeholder="Email"
-                            required
                         />
                     </div>
 
                     <div>
-                        <label for="userEdad">Edad</label>
+                        <label for="userEdad" class="form-label">Edad</label>
                         <input
                             type="number"
                             id="userEdad"
                             name="userEdad"
                             placeholder="Edad"
+                            class="form-control"
                             required
                         />
                     </div>
                     <div>
-                        <label for="userTel">Numero de Telefono</label>
+                        <label for="userTel" class="form-label"
+                            >Numero de Telefono</label
+                        >
                         <input
                             type="tel"
                             id="userTel"
                             name="userTel"
                             placeholder="Telefono"
+                            class="form-control"
                             required
                         />
                     </div>
                     <div>
-                        <label for="userObs">Observaciones</label>
+                        <label for="userObs" class="form-label"
+                            >Observaciones</label
+                        >
                         <textarea
                             name="userObs"
                             id="userObs"
                             cols="30"
                             rows="10"
+                            class="form-control"
                         ></textarea>
                     </div>
-                    <div class="main__buttons">
-                        <input
-                            class="main__submit"
+
+                    <div
+                        class="col-md-12 mb-2 mt-2 d-flex justify-content-center"
+                    >
+                        <button
+                            class="btn btn-primary"
                             type="submit"
                             value="ENVIAR"
-                        />
-                        <input class="main__reset" type="reset" value="RESET" />
+                        >
+                            ENVIAR
+                        </button>
                     </div>
-                </fieldset>
-            </form>
+
+                    <div class="col-md-12 mb-2 d-flex justify-content-center">
+                        <button
+                            class="btn btn-secondary"
+                            type="reset"
+                            value="RESET"
+                        >
+                            RESET
+                        </button>
+                    </div>
+                </form>
+            </div>
         </main>
         <footer class="footer">
             <div class="contact__container">
