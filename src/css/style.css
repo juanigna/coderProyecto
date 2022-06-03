@@ -34,7 +34,7 @@ a {
 
 /* HEADER SECTION */
 .header {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 /* NAV STYLES SECTION */
@@ -459,9 +459,6 @@ textarea {
     }
 }
 @media screen and (max-width: 768px) {
-    .header {
-        margin-bottom: 40px;
-    }
     .header__nav {
         padding: 0.3em 0;
     }
