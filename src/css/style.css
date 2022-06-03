@@ -60,7 +60,9 @@ a {
     cursor: pointer;
     position: relative;
 }
-
+.header__logo:visited {
+    color: #ffd700;
+}
 .header__logo::after {
     content: '';
     position: absolute;
