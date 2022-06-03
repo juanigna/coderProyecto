@@ -126,7 +126,7 @@ a {
 .main__title {
     text-align: center;
     text-transform: uppercase;
-    font-size: clamp(2.5rem, 5vw, 5rem);
+    font-size: clamp(3rem, 5vw, 5rem);
     font-weight: 400;
 }
 
