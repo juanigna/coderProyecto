@@ -397,7 +397,7 @@ textarea {
 }
 
 .main__subtitle {
-    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-size: clamp(1.5rem, 2vw, 3rem);
 }
 
 .main__mapa {
