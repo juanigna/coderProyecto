@@ -184,7 +184,7 @@ a {
 
 .equipo__title {
     text-align: center;
-    font-size: 2rem;
+    font-size: clamp(2.5rem, 4vw, 4rem);
     margin-bottom: 1em;
 }
 
