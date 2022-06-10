@@ -1,0 +1,84 @@
+.main__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: clamp(3rem, 5vw, 5rem);
+    font-weight: 400;
+}
+
+/* ANIMACION TITULO MAIN PAGE */
+
+.text-focus-in {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+        both;
+    animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.main__subtitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.main__equipo {
+    margin-top: -0.44em;
+    background-color: #273036;
+    padding: 4em 0;
+    &__title h1 {
+        text-align: center;
+        font-size: clamp(2rem, 4vw, 3.5rem);
+        margin-bottom: 1em;
+    }
+    &__nombre {
+        color: #000;
+        font-size: 1.2rem;
+    }
+    &__img {
+        width: 100%;
+        object-fit: cover;
+    }
+    &__img img {
+        width: 100%;
+        object-fit: cover;
+        height: 350px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+    }
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #c2ab5f;
+        width: 100%;
+        border-radius: 5px;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            box-shadow: 0 0 10px #fff;
+        }
+    }
+}
