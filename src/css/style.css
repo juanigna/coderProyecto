@@ -447,6 +447,9 @@ textarea {
     font-size: clamp(1.3rem, 2vw, 2rem);
     margin: 0;
 }
+
+/* MEDIA QUERIS */
+
 @media screen and (max-width: 992px) {
     .header__item::after {
         content: '';
