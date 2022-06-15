@@ -1,47 +1,19 @@
 /* MEDIA QUERIS */
 
-@media screen and (max-width: 992px) {
-    .header__item::after {
-        content: '';
-        width: 0%;
-        height: 3px;
-        position: absolute;
-        background-color: #fff;
-        bottom: 30%;
-        border: none;
-        left: 0;
-    }
-
-    .header__item:hover::after {
-        width: 70% !important;
-        transition: all 1s ease;
-    }
-}
-@media screen and (max-width: 768px) {
-    .header__item:hover a {
-        color: #fff;
-    }
-
-    .main__img {
-        width: 70vw;
+@mixin desktop() {
+    @media screen and (max-width: 992px) {
+        @content;
     }
 }
 
-@media screen and (max-width: 420px) {
-    .products__card img {
-        height: 300px;
-    }
-
-    .header__logo {
-        font-size: 1.3rem;
-    }
-    .mail__logo {
-        width: 24px;
+@mixin tablet() {
+    @media screen and (max-width: 768px) {
+        @content;
     }
 }
 
-@media screen and (max-width: 578px) {
-    .container__wrapper {
-        display: none;
+@mixin movil() {
+    @media screen and (max-width: 420px) {
+        @content;
     }
 }

@@ -1,4 +1,5 @@
 /* HEADER SECTION */
+@import 'medias';
 .header {
     margin-bottom: 80px;
     &__nav {
@@ -21,6 +22,9 @@
         text-transform: uppercase;
         cursor: pointer;
         position: relative;
+        @include movil {
+            font-size: 1.3rem;
+        }
         &:visited {
             color: #ffd700;
         }
@@ -60,12 +64,26 @@
             bottom: 30%;
             border: none;
             left: 0;
+            @include desktop {
+                content: '';
+                width: 0%;
+                height: 3px;
+                position: absolute;
+                background-color: #fff;
+                bottom: 30%;
+                border: none;
+                left: 0;
+            }
         }
         &:hover::after {
             width: 90% !important;
             left: 50%;
             transform: translateX(-50%);
             transition: all 1s ease;
+            @include desktop {
+                width: 70% !important;
+                transition: all 1s ease;
+            }
         }
     }
 }

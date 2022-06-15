@@ -24,6 +24,7 @@ a {
   color: #fff; }
 
 /* HEADER SECTION */
+/* MEDIA QUERIS */
 .header {
   margin-bottom: 80px; }
   .header__nav {
@@ -44,6 +45,9 @@ a {
     text-transform: uppercase;
     cursor: pointer;
     position: relative; }
+    @media screen and (max-width: 420px) {
+      .header__logo {
+        font-size: 1.3rem; } }
     .header__logo:visited {
       color: #ffd700; }
     .header__logo::after {
@@ -77,11 +81,25 @@ a {
       bottom: 30%;
       border: none;
       left: 0; }
+      @media screen and (max-width: 992px) {
+        .header__item::after {
+          content: '';
+          width: 0%;
+          height: 3px;
+          position: absolute;
+          background-color: #fff;
+          bottom: 30%;
+          border: none;
+          left: 0; } }
     .header__item:hover::after {
       width: 90% !important;
       left: 50%;
       transform: translateX(-50%);
       transition: all 1s ease; }
+      @media screen and (max-width: 992px) {
+        .header__item:hover::after {
+          width: 70% !important;
+          transition: all 1s ease; } }
 
 .main__title {
   text-align: center;
@@ -144,6 +162,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #c2ab5f;
     width: 100%;
     border-radius: 5px;
@@ -204,6 +223,9 @@ textarea {
   width: 100px;
   overflow: hidden;
   z-index: -1; }
+  @media screen and (max-width: 768px) {
+    .container__wrapper {
+      display: none; } }
 
 .container__ribbon {
   left: -67px;
@@ -307,6 +329,7 @@ textarea {
   margin-bottom: 2em; }
 
 /* FOOTER STYLES */
+/* MEDIA QUERIS */
 .footer {
   background-color: #575757;
   padding: 1.3em;
@@ -315,55 +338,17 @@ textarea {
   justify-content: space-between;
   align-items: center;
   margin-top: auto; }
-
-.footer__contact {
-  font-weight: 400;
-  font-size: clamp(1.3rem, 2vw, 2rem);
-  cursor: pointer;
-  margin: 0; }
-
-.contact__container {
-  display: flex;
-  gap: 0.5em; }
-
-.mail__logo {
-  width: 32px;
-  opacity: 1; }
-
-.footer__madeBy {
-  font-weight: 400;
-  font-size: clamp(1.3rem, 2vw, 2rem);
-  margin: 0; }
+  .footer__madeBy {
+    font-weight: 400;
+    font-size: clamp(1.3rem, 2vw, 2rem);
+    margin: 0; }
+  .footer__contact {
+    font-weight: 400;
+    font-size: clamp(1.3rem, 2vw, 2rem);
+    cursor: pointer;
+    margin: 0; }
+  .footer .mail__logo {
+    width: 32px;
+    opacity: 1; }
 
 /* MEDIA QUERIS */
-@media screen and (max-width: 992px) {
-  .header__item::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    position: absolute;
-    background-color: #fff;
-    bottom: 30%;
-    border: none;
-    left: 0; }
-  .header__item:hover::after {
-    width: 70% !important;
-    transition: all 1s ease; } }
-
-@media screen and (max-width: 768px) {
-  .header__item:hover a {
-    color: #fff; }
-  .main__img {
-    width: 70vw; } }
-
-@media screen and (max-width: 420px) {
-  .products__card img {
-    height: 300px; }
-  .header__logo {
-    font-size: 1.3rem; }
-  .mail__logo {
-    width: 24px; } }
-
-@media screen and (max-width: 578px) {
-  .container__wrapper {
-    display: none; } }

@@ -1,5 +1,5 @@
 /* FOOTER STYLES */
-
+@import 'medias';
 .footer {
     background-color: rgb(87, 87, 87);
     padding: 1.3em;
@@ -8,26 +8,21 @@
     justify-content: space-between;
     align-items: center;
     margin-top: auto;
-}
-
-.footer__contact {
-    font-weight: 400;
-    font-size: clamp(1.3rem, 2vw, 2rem);
-    cursor: pointer;
-    margin: 0;
-}
-
-.contact__container {
-    display: flex;
-    gap: 0.5em;
-}
-.mail__logo {
-    width: 32px;
-    opacity: 1;
-}
-
-.footer__madeBy {
-    font-weight: 400;
-    font-size: clamp(1.3rem, 2vw, 2rem);
-    margin: 0;
+    &__madeBy {
+        font-weight: 400;
+        font-size: clamp(1.3rem, 2vw, 2rem);
+        margin: 0;
+    }
+    &__contact {
+        font-weight: 400;
+        font-size: clamp(1.3rem, 2vw, 2rem);
+        cursor: pointer;
+        margin: 0;
+    }
+    .mail__logo {
+        width: 32px;
+        opacity: 1;
+        @include movil {
+        }
+    }
 }

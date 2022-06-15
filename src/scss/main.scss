@@ -59,6 +59,9 @@ textarea {
     width: 100px;
     overflow: hidden;
     z-index: -1;
+    @include tablet {
+        display: none;
+    }
 }
 .container__ribbon {
     left: -67px;
