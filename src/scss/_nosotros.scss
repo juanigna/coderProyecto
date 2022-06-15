@@ -1,0 +1,16 @@
+/* NOSOTROS SECTION */
+.main__left {
+    .main__subtitle {
+        font-size: clamp(1.5rem, 2vw, 3rem);
+    }
+}
+.main__mapa {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    .mapa {
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    }
+}
