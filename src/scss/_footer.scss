@@ -1,21 +1,16 @@
 /* FOOTER STYLES */
 @import 'medias';
+.tamañoResponsive {
+    font-weight: 400;
+    font-size: clamp(1.3rem, 2vw, 2rem);
+}
 .footer {
-    background-color: rgb(87, 87, 87);
-    padding: 1.3em;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: auto;
     &__madeBy {
-        font-weight: 400;
-        font-size: clamp(1.3rem, 2vw, 2rem);
+        @extend .tamañoResponsive;
         margin: 0;
     }
     &__contact {
-        font-weight: 400;
-        font-size: clamp(1.3rem, 2vw, 2rem);
+        @extend .tamañoResponsive;
         cursor: pointer;
         margin: 0;
     }

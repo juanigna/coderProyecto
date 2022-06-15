@@ -3,52 +3,6 @@
 @import 'header';
 @import 'main-section';
 
-/* CONTACT FORM SECTION */
-.main__form {
-    margin: 0 auto;
-    width: 50%;
-    text-align: center;
-    margin-bottom: 2em;
-}
-.main__form input,
-textarea {
-    outline: none;
-    display: block;
-    margin: 0 auto;
-    border-radius: 5px;
-    border: none;
-}
-.main__form textarea {
-    margin: 2em auto;
-    width: 70%;
-}
-.main__form input {
-    width: 70%;
-    height: 2em;
-}
-.main__buttons input {
-    display: inline-block;
-    width: max-content;
-    border: none;
-    font-weight: 100;
-    background-color: #ffd700;
-    color: #000;
-}
-
-.main__submit {
-    padding: 0.3em 1.5em;
-    border: none;
-    border-radius: 10px;
-    font-size: 1rem;
-    display: inline-block;
-}
-.main__reset {
-    padding: 0.3em 1.5em;
-    border: none;
-    border-radius: 10px;
-    font-size: 1rem;
-}
-
 /* SILLONES Y SILLAS PRODUCTS SECTION */
 
 .container__wrapper {
