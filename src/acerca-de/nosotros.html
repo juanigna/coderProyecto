@@ -4,7 +4,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="contacto, mensaje, gmail, telefono" />
+        <meta
+            name="keywords"
+            content="contacto, mensaje, direccion, ubicacion, local, tienda"
+        />
         <meta
             name="description"
             content="La mejor pagina referida a sillones y sillas, entra ya!"
@@ -15,6 +18,7 @@
             integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
             crossorigin="anonymous"
         />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -22,9 +26,9 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="../css/estilos.css" />
-        <title>CONTACTO | MUEBLE CITY</title>
+        <title>NOSOTROS | MUEBLE CITY</title>
     </head>
-    <body class="contacto">
+    <body class="nosotros">
         <header class="header">
             <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
                 <div class="container-fluid">
@@ -58,26 +62,26 @@
                             <li class="nav-item">
                                 <a
                                     class="nav-link header__item"
-                                    href="sillones.html"
+                                    href="../productos/sillones.html"
                                     >Sillones</a
                                 >
                             </li>
                             <li class="nav-item">
                                 <a
                                     class="nav-link header__item"
-                                    href="sillas.html"
+                                    href="../productos/sillas.html"
                                     >Sillas</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link header__item" href="#"
-                                    >Contacto</a
                                 >
                             </li>
                             <li class="nav-item">
                                 <a
                                     class="nav-link header__item"
-                                    href="nosotros.html"
+                                    href="contacto.html"
+                                    >Contacto</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link header__item" href="#"
                                     >Nosotros</a
                                 >
                             </li>
@@ -86,111 +90,61 @@
                 </div>
             </nav>
         </header>
-        <main class="main mb-5">
-            <div class="container">
-                <h1 class="main__title tracking-in-contract-bck-bottom">
-                    Contacto
-                </h1>
-                <h2 class="main__subtitle">Completa el formulario</h2>
-
-                <form
-                    action=""
-                    method="get"
-                    enctype="text/plain"
-                    class="row mb-1"
-                >
-                    <div class="col-md-6">
-                        <label for="exampleInputName" class="form-label"
-                            >Nombre</label
-                        >
-                        <input
-                            type="text"
-                            class="form-control"
-                            id="exampleInputName"
-                            aria-describedby="emailHelp"
-                            placeholder="Nombre"
-                        />
-                    </div>
-                    <div class="col-md-6">
-                        <label for="exampleInputEmail1" class="form-label"
-                            >Email address</label
-                        >
-                        <input
-                            type="email"
-                            class="form-control"
-                            id="exampleInputEmail1"
-                            aria-describedby="emailHelp"
-                            placeholder="Email"
-                        />
-                    </div>
-
-                    <div>
-                        <label for="userEdad" class="form-label">Edad</label>
-                        <input
-                            type="number"
-                            id="userEdad"
-                            name="userEdad"
-                            placeholder="Edad"
-                            class="form-control"
-                            required
-                        />
-                    </div>
-                    <div>
-                        <label for="userTel" class="form-label"
-                            >Numero de Telefono</label
-                        >
-                        <input
-                            type="tel"
-                            id="userTel"
-                            name="userTel"
-                            placeholder="Telefono"
-                            class="form-control"
-                            required
-                        />
-                    </div>
-                    <div>
-                        <label for="userObs" class="form-label"
-                            >Observaciones</label
-                        >
-                        <textarea
-                            name="userObs"
-                            id="userObs"
-                            cols="30"
-                            rows="10"
-                            class="form-control"
-                        ></textarea>
-                    </div>
-
-                    <div
-                        class="col-md-12 mb-2 mt-3 d-flex justify-content-center"
+        <main class="main">
+            <section class="main__section mb-4 d-flex align-items-center">
+                <div class="container">
+                    <h1
+                        class="display-5 text-uppercase lead text-center mb-5 mt-5"
                     >
-                        <button
-                            class="btn btn-primary btn-lg"
-                            type="submit"
-                            value="ENVIAR"
-                        >
-                            ENVIAR
-                        </button>
+                        Gracias por elegirnos!!!
+                    </h1>
+                    <div class="row align-items-center">
+                        <div class="col-12 col-xl-6 d-flex">
+                            <div class="main__left">
+                                <h1 class="main__title">Mueble City</h1>
+                                <h3 class="main__subtitle main_text">
+                                    Somos una empresa que se dedica a la venta
+                                    de todo tipo de muebles, como sillas,
+                                    sillones, camas, estantes, entre
+                                    otros.Contamos con alta variedad de locales
+                                    en todo el pais y atencion telefonica!
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <div class="main__mapa w-100">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6243.875567163306!2d-64.17981627143433!3d-31.427977623093213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29485b6a837%3A0xdb4ff7493d3ed589!2sParque%20Sarmiento!5e0!3m2!1ses-419!2sar!4v1653353536802!5m2!1ses-419!2sar"
+                                    width="600"
+                                    height="450"
+                                    style="border: 0"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    class="mapa"
+                                ></iframe>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="col-md-12 mb-2 d-flex justify-content-center">
-                        <button
-                            class="btn btn-secondary btn-lg"
-                            type="reset"
-                            value="RESET"
+                    <h2 class="text-center mt-5">
+                        Nos encontramos en Avenida --- desde las 18hs hasta las
+                        23hs
+                    </h2>
+                    <p class="lead text-center mt-4">
+                        Para mas informacion dirigirse aquí
+                        <a class="btn btn-primary" href="contacto.html"
+                            >Contacto</a
                         >
-                            RESET
-                        </button>
-                    </div>
-                </form>
-            </div>
+                    </p>
+                </div>
+            </section>
         </main>
         <footer class="bg-dark text-white p-4">
             <div class="row">
                 <div
                     class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center mb-2 mb-md-0"
                 >
-                    <a href="#">
+                    <a href="contacto.html">
                         <h4 class="footer__contact lead me-1">CONTACT</h4>
                     </a>
                     <img
