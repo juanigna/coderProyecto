@@ -1,16 +1,22 @@
 /* MEDIA QUERIS */
 
+// MEDIA DE DESKTOP
+
 @mixin desktop() {
     @media screen and (max-width: 992px) {
         @content;
     }
 }
 
+// MEDIA DE TABLET
+
 @mixin tablet() {
     @media screen and (max-width: 768px) {
         @content;
     }
 }
+
+// MEDIA DE MOVIL
 
 @mixin movil() {
     @media screen and (max-width: 420px) {

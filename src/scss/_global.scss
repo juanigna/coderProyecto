@@ -3,11 +3,7 @@ body {
     color: #fff;
     /* background-color: #1c1c1c; */
     background: #485563; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        to right,
-        #29323c,
-        #485563
-    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-$gradient-body; /* Chrome 10-25, Safari 5.1-6 */
     background: $gradient-body;
 
     font-family: 'Poppins', sans-serif;

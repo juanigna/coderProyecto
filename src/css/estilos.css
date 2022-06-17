@@ -1,15 +1,10 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 body {
   color: #fff;
   /* background-color: #1c1c1c; */
   background: #485563;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: -webkit- linear-gradient(to right, #29323c, #485563);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #29323c, #485563);
   font-family: 'Poppins', sans-serif;
@@ -22,6 +17,11 @@ body {
 a {
   text-decoration: none;
   color: #fff; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /* HEADER SECTION */
 /* MEDIA QUERIS */
