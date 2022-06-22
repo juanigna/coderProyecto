@@ -276,5 +276,8 @@ main {
   .footer .mail__logo {
     width: 32px;
     opacity: 1; }
+    @media screen and (max-width: 420px) {
+      .footer .mail__logo {
+        width: 24px; } }
 
 /* MEDIA QUERIS */

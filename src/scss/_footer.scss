@@ -23,6 +23,7 @@
         width: 32px;
         opacity: 1;
         @include movil {
+            width: 24px;
         }
     }
 }
