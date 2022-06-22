@@ -18,6 +18,9 @@ a {
   text-decoration: none;
   color: #fff; }
 
+main {
+  margin-bottom: 10em; }
+
 * {
   margin: 0;
   padding: 0;
@@ -235,7 +238,7 @@ a {
     margin-top: -10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    height: 30px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -259,15 +262,19 @@ a {
   font-weight: 400;
   font-size: clamp(1.3rem, 2vw, 2rem); }
 
-.footer__madeBy {
-  margin: 0; }
-
-.footer__contact {
-  cursor: pointer;
-  margin: 0; }
-
-.footer .mail__logo {
-  width: 32px;
-  opacity: 1; }
+.footer {
+  position: absolute;
+  bottom: 0 !important;
+  margin-top: 5em !important;
+  overflow: visible;
+  width: 100%; }
+  .footer__madeBy {
+    margin: 0; }
+  .footer__contact {
+    cursor: pointer;
+    margin: 0; }
+  .footer .mail__logo {
+    width: 32px;
+    opacity: 1; }
 
 /* MEDIA QUERIS */
