@@ -46,7 +46,11 @@
     font-weight: 400;
     margin-bottom: 1em;
 }
-
+.main {
+    &__img {
+        box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    }
+}
 .main__equipo {
     margin-top: -0.44em;
     background-color: #273036;

@@ -18,6 +18,10 @@
             integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
             crossorigin="anonymous"
         />
+        <script
+            src="https://kit.fontawesome.com/0f1ff8f3f6.js"
+            crossorigin="anonymous"
+        ></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -95,17 +99,24 @@
 
             <br />
         </header>
-        <main class="main mb-5">
+        <main class="main">
             <section class="main__section">
                 <div class="container">
+                    <div class="d-flex flex-column">
+                        <h1 class="main__title text-focus-in">Mueble City</h1>
+                        <h2 class="main__subtitle mb-5">Tu lugar de Muebles</h2>
+                    </div>
                     <div class="row">
-                        <div class="col d-flex flex-column">
-                            <h1 class="main__title text-focus-in">
-                                Mueble City
-                            </h1>
-                            <h2 class="main__subtitle">Tu lugar de Muebles</h2>
+                        <div
+                            class="col-12 fs-2 text-center mb-3 text-md-start d-flex align-items-center col-md-6"
+                        >
+                            Somos una empresa dedicada a la venta de muebles, no
+                            olvides pasarte por nuestra tienda local y dejar tu
+                            opinion!
+                        </div>
+                        <div class="col-12 col-md-6">
                             <img
-                                class="img-fluid rounded-3"
+                                class="img-fluid rounded-3 main__img"
                                 src="src/assets/logo.webp"
                                 alt="Imagen principal compuesta por muebles"
                             />
@@ -167,7 +178,7 @@
         <footer class="footer bg-dark text-white p-4">
             <div class="row d-flex w-100 justify-content-between">
                 <div
-                    class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center mb-2 mb-md-0"
+                    class="col-12 col-md-3 d-flex justify-content-center justify-content-md-start align-items-center mb-2 mb-md-0"
                 >
                     <a href="./src/acerca-de/contacto.html">
                         <h4 class="footer__contact lead me-1">CONTACT</h4>
@@ -179,7 +190,24 @@
                     />
                 </div>
                 <div
-                    class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-end"
+                    class="col-12 col-md-3 d-flex justify-content-center align-items-center gap-3"
+                >
+                    <div class="footer__icons">
+                        <i class="footer__icon fa-brands fa-facebook"></i>
+
+                        <i class="footer__icon fa-brands fa-instagram"></i>
+
+                        <i class="footer__icon fa-brands fa-pinterest"></i>
+
+                        <i class="footer__icon fa-brands fa-github"></i>
+
+                        <i class="footer__icon fa-brands fa-linkedin"></i>
+
+                        <i class="footer__icon fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-md-3 d-flex align-items-center justify-content-center justify-content-md-end"
                 >
                     <h4 class="footer__madeBy">Made By Juan</h4>
                 </div>
