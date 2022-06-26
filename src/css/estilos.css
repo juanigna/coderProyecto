@@ -146,7 +146,11 @@ hr.divider:before {
   margin-bottom: 1em; }
 
 .main__img {
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5); }
+  transition: all 0.5s ease; }
+
+.main__img:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  transition: all 0.5s ease; }
 
 .main__equipo {
   margin-top: -0.44em;
