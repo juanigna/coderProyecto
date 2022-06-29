@@ -1,7 +1,8 @@
+@import 'variables';
 /* NOSOTROS SECTION */
 .main__left {
     .main__subtitle {
-        font-size: clamp(1.5rem, 2vw, 3rem);
+        font-size: $h3-size;
     }
 }
 .main__mapa {

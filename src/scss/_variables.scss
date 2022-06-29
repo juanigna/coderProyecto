@@ -11,3 +11,9 @@ $radius-size: 5px;
 // GRADIENTES
 
 $gradient-body: linear-gradient(to right, #29323c, #485563);
+
+//FONT SIZES RESPONSIVES
+
+$h1-size: clamp(2rem, 4vw, 4.5rem);
+
+$h3-size: clamp(1.5rem, 2vw, 3rem);

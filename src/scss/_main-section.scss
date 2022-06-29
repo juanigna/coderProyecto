@@ -1,11 +1,5 @@
 @import 'variables';
-
-.main__title {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: clamp(2rem, 5vw, 5rem);
-    font-weight: 400;
-}
+@import 'mixins';
 
 /* ANIMACION TITULO MAIN PAGE */
 
@@ -61,7 +55,7 @@
     padding: 4em 0;
     &__title h1 {
         text-align: center;
-        font-size: clamp(2rem, 4vw, 3.5rem);
+        font-size: $h1-size;
         margin-bottom: 1em;
     }
     &__nombre {
@@ -80,10 +74,7 @@
         border-top-left-radius: 3px;
     }
     &__card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        @include flex-column-center();
         background-color: map-get($colors, light-gold);
         width: 100%;
         border-radius: 5px;
