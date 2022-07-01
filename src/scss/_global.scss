@@ -43,3 +43,9 @@ hr.divider:before {
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
+
+//active bootstarp class
+
+.active {
+    color: map-get($colors, gold) !important;
+}
